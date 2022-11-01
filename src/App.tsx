@@ -65,21 +65,21 @@ function App() {
             x: Math.floor(window.innerWidth / 2) - 150,
             y: Math.floor(window.innerHeight / 2) - 180,
           }}
-          icon={<BatExec variant="32x32_4" />}
-          title="Decode base64"
+          icon={<BatExec variant='32x32_4' />}
+          title='Decode base64'
         >
           Paste a base64 PDF string
           <form onSubmit={handleSubmit}>
-            <TextArea name="base64" ref={textarea} rows={10} />
-            <Button type="submit">Decode</Button>
+            <TextArea name='base64' ref={textarea} rows={10} />
+            <Button type='submit'>Decode</Button>
           </form>
         </Modal>
       ) : null}
       {showAlert ? (
         <Alert
-          title="Decode"
-          type="error"
-          message="The input is not a base64 string"
+          title='Decode'
+          type='error'
+          message='The input is not a base64 string'
           closeAlert={() => setShowAlert(false)}
           buttons={[{ value: 'OK', onClick: () => setShowAlert(false) }]}
         />
@@ -87,7 +87,7 @@ function App() {
       {base64 ? (
         <Modal
           closeModal={() => setBase64('')}
-          icon={<FileText variant="32x32_4" />}
+          icon={<FileText variant='32x32_4' />}
           menu={[
             {
               name: 'File',
@@ -108,7 +108,7 @@ function App() {
               ),
             },
           ]}
-          title="pdf"
+          title='pdf'
         >
           <Document file={`data:application/pdf;base64,${base64}`}>
             <Page pageNumber={1} />
@@ -116,14 +116,14 @@ function App() {
         </Modal>
       ) : null}
       <Icon onClick={() => setShowModal(true)}>
-        <BatExec variant="32x32_4" />
+        <BatExec variant='32x32_4' />
         decode.exe
       </Icon>
       <TaskBar
         list={
           <List>
             <List.Item
-              icon={<Access223 variant="32x32_4" />}
+              icon={<Access223 variant='32x32_4' />}
               onClick={() =>
                 window
                   .open('https://github.com/rfoel/base64-to-pdf', '_blank')
