@@ -16,7 +16,7 @@
     "@react95/icons": "^2.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-pdf": "^5.7.2",
+    "react-pdf": "^6.0.3",
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
