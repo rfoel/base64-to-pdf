@@ -16,7 +16,7 @@
     "@react95/icons": "^2.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-pdf": "^5.7.2",
+    "react-pdf": "^6.2.1",
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
@@ -27,7 +27,7 @@
     "@semantic-release/release-notes-generator": "^10.0.3",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
-    "@types/react-pdf": "^5.7.3",
+    "@types/react-pdf": "^6.2.0",
     "@types/styled-components": "^5.1.26",
     "@types/xstyled__styled-components": "^1.19.2",
     "@vitejs/plugin-react": "^2.2.0",
