@@ -37,7 +37,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1",
-    "semantic-release": "^19.0.5",
+    "semantic-release": "^24.2.0",
     "typescript": "^4.8.4",
     "vite": "^3.2.2"
   }
