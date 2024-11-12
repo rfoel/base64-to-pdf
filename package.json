@@ -29,7 +29,7 @@
     "@types/react-dom": "^18.0.8",
     "@types/react-pdf": "^5.7.3",
     "@types/styled-components": "^5.1.26",
-    "@types/xstyled__styled-components": "^1.19.2",
+    "@types/xstyled__styled-components": "^2.0.0",
     "@vitejs/plugin-react": "^2.2.0",
     "eslint": "^8.26.0",
     "eslint-config-prettier": "^8.5.0",
